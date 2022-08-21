@@ -1,0 +1,8 @@
+aws:
+  secretsmanager:
+    default-context: application
+    prefix: /dev
+    profile-separator: _
+    fail-fast: true
+    name: AppProps
+    enabled: true
